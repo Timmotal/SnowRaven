@@ -128,10 +128,15 @@
                 </p>
         </article>
         <div class="navbarLikeHeaderWithActveLink">
-            <ul style="list-style-type: none; display: flex; gap: 10px;">
+            <!-- <ul style="list-style-type: none; display: flex; gap: 10px;">
                 <li><a href="#" onclick="showContent('content1')">Mountain 1</a></li>
                 <li><a href="#" onclick="showContent('content2')">Mountain 1</a></li>
-            </ul>
+            </ul> -->
+
+            <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'Mountain1')">Mountain 1</button>
+                <button class="tablinks" onclick="openCity(event, 'Mountain2')">Mountain 2</button>
+              </div>
         </div>
         <section id="teamSection">
         
@@ -141,38 +146,82 @@
              alt="mountains-image">
             
              <div style="position: relative;">
-                
-                <div id="mountain1Body">
-                    <div class="textInBody">
-                        <h3>Schedule</h3>
-                        <div>
-                            <ul class="make them have spave betwenn || and between the texts also">
-                                <li>
-                                    <span>25 Nov 2016</span>
-                                    <span>Westnulum vlverra</span>
-                                </li>
-                                <li>
-                                    <span>28 Nov 2016</span>
-                                    <span>Westnulum vlverra</span>
-                                </li>
-                            </ul>
-        
-                            <ul class="2nd list">
-                                <li>
-                                    <span>18 Dec 2016</span>
-                                    <span>Westnulum vlverra</span>
-                                </li>
-                            </ul>
-        
-                            <ul class="third">
-                                <li>
-                                    <span>7 Jan 2017</span>
-                                    <span>Westnulum vlverra</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+
+
+
+<div id="Mountain1" class="tabcontent">
+    <div id="mountain1Body">
+        <div class="textInBody">
+            <h3>Schedule</h3>
+            <div>
+                <ul class="make them have spave betwenn || and between the texts also">
+                    <li>
+                        <span>25 Nov 2016</span>
+                        <span>Westnulum vlverra</span>
+                    </li>
+                    <li>
+                        <span>28 Nov 2016</span>
+                        <span>Westnulum vlverra</span>
+                    </li>
+                </ul>
+
+                <ul class="2nd list">
+                    <li>
+                        <span>18 Dec 2016</span>
+                        <span>Westnulum vlverra</span>
+                    </li>
+                </ul>
+
+                <ul class="third">
+                    <li>
+                        <span>7 Jan 2017</span>
+                        <span>Westnulum vlverra</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="Mountain2" class="tabcontent">
+
+        <div id="mountain2Body">
+            <div class="textInBody">
+                <h3>Arrival Schedule</h3>
+                <div>
+                    <ul class="make them have spave betwenn || and between the texts also">
+                        <li>
+                            <span>25 Nov 2016</span>
+                            <span>Westnulum vlverra</span>
+                        </li>
+                        <li>
+                            <span>28 Nov 2016</span>
+                            <span>Westnulum vlverra</span>
+                        </li>
+                    </ul>
+
+                    <ul class="2nd list">
+                        <li>
+                            <span>18 Dec 2016</span>
+                            <span>Westnulum vlverra</span>
+                        </li>
+                    </ul>
+
+                    <ul class="third">
+                        <li>
+                            <span>7 Jan 2017</span>
+                            <span>Westnulum vlverra</span>
+                        </li>
+                    </ul>
                 </div>
+            </div>
+        </div>
+  
+  </div>
+  
+
+                
+               
                 <!-- <nav>
                     <a href="#" onclick="showContent('content1')">Link 1</a>
                     <a href="#" onclick="showContent('content2')">Link 2</a>
@@ -187,37 +236,7 @@
                     <h2>Content for Link 2</h2>
                     <p>This is the content for Link 2.</p>
                 </div> -->
-                <div id="mountain2Body">
-                    <div class="textInBody">
-                        <h3>Arrival Schedule</h3>
-                        <div>
-                            <ul class="make them have spave betwenn || and between the texts also">
-                                <li>
-                                    <span>25 Nov 2016</span>
-                                    <span>Westnulum vlverra</span>
-                                </li>
-                                <li>
-                                    <span>28 Nov 2016</span>
-                                    <span>Westnulum vlverra</span>
-                                </li>
-                            </ul>
-        
-                            <ul class="2nd list">
-                                <li>
-                                    <span>18 Dec 2016</span>
-                                    <span>Westnulum vlverra</span>
-                                </li>
-                            </ul>
-        
-                            <ul class="third">
-                                <li>
-                                    <span>7 Jan 2017</span>
-                                    <span>Westnulum vlverra</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                
              </div>
             </div>
         </section>
@@ -253,7 +272,21 @@
     </footer>
 
     
-    
+    <script>
+        function openCity(evt, cityName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+        </script>
 </body>
 
 </html>
