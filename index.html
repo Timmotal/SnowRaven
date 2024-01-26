@@ -17,7 +17,8 @@
     " 
     alt="coalition-technologies-logo" 
     />
-                <nav style="display: flex; justify-content: space-between;  position: relative;">
+                <header>
+                    <nav style="display: flex; justify-content: space-between;  position: relative;">
             
                         <a href="#">
                             <img
@@ -37,6 +38,7 @@
                    
                 </ul>
             </nav>
+                </header>
         
             <main id="heroSection"  style="position: relative;">
                 <!-- <img 
@@ -91,19 +93,17 @@
  
 
         <div style="display: flex; flex-direction: column; justify-content: space-between;">
-            <div style="position: relative; margin: 50px;">
-                <h1>01.</h1>
-                <div>
-                    <h3>HISTORY</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <article style="position: relative; margin: 50px;">
+                <h1 style="font-size: 100px;">01.</h1>
+                <h3 style="margin-top: -0160px; margin-left: 100px;">HISTORY</h3>
+                    <p style="padding: 0 50px;"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Odio necessitatibus ullam cupiditate eligendi corrupti dolores aut.
                         Quae illo blanditiis ullam similique assumenda ex cupiditate fuga
                         iure eum tempore quisquam ducimus reiciendis minus aperiam quas
                         rerum odio possimus, labore, placeat voluptate iste incidunt
                         nostrum modi? Ratione deleniti numquam ullam illum odio iure sequi.
                     </p>
-                </div>
-            </div>
+            </article>
             <div style="position: relative;" class="fadedSlideShowContainer">
     
                 <div class="slider">
@@ -118,109 +118,138 @@
 
 
     <!-- ------------------------------------------------------------------------- -->
-    <section id="teamSection">
-        <img 
-        src="https://images.unsplash.com/photo-1616282169510-05ba664ee212?q=80&w=1555&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-         alt="mountains-image">
+    <section>
+        <article style="position: relative; display: flex; justify-content: space-between;">
+            <h1 style="font-size: 100px;">02.</h1>
+            <h3 style="margin-top: 150px; margin-left: -20px;">Climb</h3>
+                <p style="padding: 120px 50px;"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Odio necessitatibus ullam cupiditate eligendi corrupti dolores aut.
+                    Quae illo blanditiis ullam similique assumenda ex cupiditate fuga
+                </p>
+        </article>
         <div class="navbarLikeHeaderWithActveLink">
-            <ul>
-                <li><a href="#" onclick="showContent('content1')">Link 1</a></li>
-                <li><a href="#" onclick="showContent('content2')">Link 2</a></li>
+            <ul style="list-style-type: none; display: flex; gap: 10px;">
+                <li><a href="#" onclick="showContent('content1')">Mountain 1</a></li>
+                <li><a href="#" onclick="showContent('content2')">Mountain 1</a></li>
             </ul>
         </div>
-        <div id="mountain1Body">
-            <div class="textInBody">
-                <h3>Schedule</h3>
-                <div>
-                    <ul class="make them have spave betwenn || and between the texts also">
-                        <li>
-                            <span>25 Nov 2016</span>
-                            <span>Westnulum vlverra</span>
-                        </li>
-                        <li>
-                            <span>28 Nov 2016</span>
-                            <span>Westnulum vlverra</span>
-                        </li>
-                    </ul>
-
-                    <ul class="2nd list">
-                        <li>
-                            <span>18 Dec 2016</span>
-                            <span>Westnulum vlverra</span>
-                        </li>
-                    </ul>
-
-                    <ul class="third">
-                        <li>
-                            <span>7 Jan 2017</span>
-                            <span>Westnulum vlverra</span>
-                        </li>
-                    </ul>
+        <section id="teamSection">
+        
+            <div>
+                <img 
+            src="https://images.unsplash.com/photo-1616282169510-05ba664ee212?q=80&w=1555&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+             alt="mountains-image">
+            
+             <div style="position: relative;">
+                
+                <div id="mountain1Body">
+                    <div class="textInBody">
+                        <h3>Schedule</h3>
+                        <div>
+                            <ul class="make them have spave betwenn || and between the texts also">
+                                <li>
+                                    <span>25 Nov 2016</span>
+                                    <span>Westnulum vlverra</span>
+                                </li>
+                                <li>
+                                    <span>28 Nov 2016</span>
+                                    <span>Westnulum vlverra</span>
+                                </li>
+                            </ul>
+        
+                            <ul class="2nd list">
+                                <li>
+                                    <span>18 Dec 2016</span>
+                                    <span>Westnulum vlverra</span>
+                                </li>
+                            </ul>
+        
+                            <ul class="third">
+                                <li>
+                                    <span>7 Jan 2017</span>
+                                    <span>Westnulum vlverra</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <!-- <nav>
-            <a href="#" onclick="showContent('content1')">Link 1</a>
-            <a href="#" onclick="showContent('content2')">Link 2</a>
-        </nav>
-    
-        <div id="content1">
-            <h2>Content for Link 1</h2>
-            <p>This is the content for Link 1.</p>
-        </div>
-    
-        <div id="content2">
-            <h2>Content for Link 2</h2>
-            <p>This is the content for Link 2.</p>
-        </div> -->
-        <div id="mountain2Body">
-            <div class="textInBody">
-                <h3>Arrival Schedule</h3>
-                <div>
-                    <ul class="make them have spave betwenn || and between the texts also">
-                        <li>
-                            <span>25 Nov 2016</span>
-                            <span>Westnulum vlverra</span>
-                        </li>
-                        <li>
-                            <span>28 Nov 2016</span>
-                            <span>Westnulum vlverra</span>
-                        </li>
-                    </ul>
-
-                    <ul class="2nd list">
-                        <li>
-                            <span>18 Dec 2016</span>
-                            <span>Westnulum vlverra</span>
-                        </li>
-                    </ul>
-
-                    <ul class="third">
-                        <li>
-                            <span>7 Jan 2017</span>
-                            <span>Westnulum vlverra</span>
-                        </li>
-                    </ul>
+                <!-- <nav>
+                    <a href="#" onclick="showContent('content1')">Link 1</a>
+                    <a href="#" onclick="showContent('content2')">Link 2</a>
+                </nav>
+            
+                <div id="content1">
+                    <h2>Content for Link 1</h2>
+                    <p>This is the content for Link 1.</p>
                 </div>
+            
+                <div id="content2">
+                    <h2>Content for Link 2</h2>
+                    <p>This is the content for Link 2.</p>
+                </div> -->
+                <div id="mountain2Body">
+                    <div class="textInBody">
+                        <h3>Arrival Schedule</h3>
+                        <div>
+                            <ul class="make them have spave betwenn || and between the texts also">
+                                <li>
+                                    <span>25 Nov 2016</span>
+                                    <span>Westnulum vlverra</span>
+                                </li>
+                                <li>
+                                    <span>28 Nov 2016</span>
+                                    <span>Westnulum vlverra</span>
+                                </li>
+                            </ul>
+        
+                            <ul class="2nd list">
+                                <li>
+                                    <span>18 Dec 2016</span>
+                                    <span>Westnulum vlverra</span>
+                                </li>
+                            </ul>
+        
+                            <ul class="third">
+                                <li>
+                                    <span>7 Jan 2017</span>
+                                    <span>Westnulum vlverra</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+             </div>
             </div>
-        </div>
+        </section>
     </section>
 
 <!-- ------------------------------------------------------------------ -->
 
-    <footer>
-        <div class="sameClassforallThreeSections">
-            <div class="logo">
-                <!-- <img src="logo.png" alt="coalition technologies Logo"> -->
-                <div>
-                    <h4>LosAngeles</h4>
-                    <h4>Mountain</h4>
-                </div>
-            </div>
-            <div class="links">
-                <p>Copyright 2016. All Rights Reserved</p>
-            </div>
-        </div>
+    <footer style="display: flex; justify-content: space-between;  position: relative; padding: 10px 100px 0;">
+            
+        <ul>
+            <li>
+                <a href="#" >
+                    <img
+                    style="height: 50px; width: 50px; border-radius: 50%; position: relative; "
+                 src="
+                https://images.unsplash.com/photo-1675135391618-ba6905ded306?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                " alt="">
+                </a>
+            </li>
+            <li style="margin-top: -20px; margin-left:10px ;">
+                <a>LOS ANGELES
+                    <span>Mountains</span>
+                </a>
+            </li>
+        </ul>
+    <ul>
+        <li class="links">
+            <p>Copyright 2016. All Rights Reserved</p>
+        </li>
+    </ul>
+    
+    </ul>
     </footer>
 
     
