@@ -134,8 +134,8 @@
             </ul> -->
 
             <ul class="tab"  style="list-style-type: none; display: flex; gap: 10px;">
-                <button class="tablinks" onclick="openCity(event, 'Mountain1')">Mountain 1</button>
-                <button class="tablinks" onclick="openCity(event, 'Mountain2')">Mountain 2</button>
+                <button class="tablinks accordion" onclick="openCity(event, 'Mountain1')">Mountain 1</button>
+                <button class="tablinks accordion" onclick="openCity(event, 'Mountain2')">Mountain 2</button>
               </ul>
         </div>
         <section id="teamSection">
@@ -150,11 +150,12 @@
                 <h3>Schedule</h3>
 
 
-<div id="Mountain1" class="tabcontent">
+<div id="Mountain1" class="tabcontent panel aboveMobile">
     <div id="mountain1Body">
         <div class="textInBody">
             <div>
-                <ul style="display: flex; flex-direction: column; list-style-type: none"  class="make them have spave betwenn || and between the texts also">
+                <ul 
+                class="make them have spave betwenn || and between the texts also">
                     <li>
                         <span>25 Nov 2016</span>
                         <span>Westnulum vlverra</span>
@@ -183,7 +184,7 @@
     </div>
 </div>
 
-<div id="Mountain2" class="tabcontent">
+<div id="Mountain2" class="tabcontent panel aboveMobile">
 
         <div id="mountain2Body">
             <div class="textInBody">
@@ -218,29 +219,119 @@
         </div>
   
   </div>
-  
+  <div class="container">
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="accordion">
+
+      <div class="accordion-item">
+        <button id="accordion-button-1" aria-expanded="false">
+            <span class="accordion-title">
+                Mountain 1
+            </span>
+            <span class="icon" aria-hidden="true"></span>
+        </button>
+        <div class="accordion-content">
+          <p>Mountain 1 Content</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button id="accordion-button-2" aria-expanded="false">
+            <span class="accordion-title">
+                Mountain 2
+            </span>
+            <span class="icon" aria-hidden="true"></span>
+        </button>
+
+        <div class="accordion-content">
+          <p>Mountain 2 Content.</p>
+        </div>
+      </div>
+
+      <!-- <div class="accordion-item">
+        <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Will we ever discover aliens?</span><span class="icon" aria-hidden="true"></span></button>
+        <div class="accordion-content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">How much does the Earth weigh?</span><span class="icon" aria-hidden="true"></span></button>
+        <div class="accordion-content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">How do airplanes stay up?</span><span class="icon" aria-hidden="true"></span></button>
+        <div class="accordion-content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+        </div>
+      </div> -->
+
+
+    </div>
+</div>
 
                 
-               
-                <!-- <nav>
-                    <a href="#" onclick="showContent('content1')">Link 1</a>
-                    <a href="#" onclick="showContent('content2')">Link 2</a>
-                </nav>
-            
-                <div id="content1">
-                    <h2>Content for Link 1</h2>
-                    <p>This is the content for Link 1.</p>
-                </div>
-            
-                <div id="content2">
-                    <h2>Content for Link 2</h2>
-                    <p>This is the content for Link 2.</p>
-                </div> -->
                 
              </div>
             </div>
         </section>
     </section>
+
+    <!-- ----------------------------------------- -->
+    <!-- <div class="container">
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="accordion">
+
+          <div class="accordion-item">
+            <button id="accordion-button-1" aria-expanded="false">
+                <span class="accordion-title">
+                    Mountain 1
+                </span>
+                <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p>Mountain 1 Content</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button id="accordion-button-2" aria-expanded="false">
+                <span class="accordion-title">
+                    Mountain 2
+                </span>
+                <span class="icon" aria-hidden="true"></span>
+            </button>
+
+            <div class="accordion-content">
+              <p>Mountain 2 Content.</p>
+            </div>
+          </div>
+
+           <div class="accordion-item">
+            <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Will we ever discover aliens?</span><span class="icon" aria-hidden="true"></span></button>
+            <div class="accordion-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">How much does the Earth weigh?</span><span class="icon" aria-hidden="true"></span></button>
+            <div class="accordion-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">How do airplanes stay up?</span><span class="icon" aria-hidden="true"></span></button>
+            <div class="accordion-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+            </div>
+          </div> -->
+
+
+        </div>
+    </div>
 
 <!-- ------------------------------------------------------------------ -->
 
@@ -273,8 +364,31 @@
 
     
     <script>
+
+// Accordion Functionality
+// var acc = document.getElementsByClassName("accordion");
+// var i;
+
+// for (i = 0; i < acc.length; i++) {
+//   acc[i].addEventListener("click", function() {
+//     this.classList.toggle("active");
+//     var panel = this.nextElementSibling;
+//     if (panel.style.display === "block") {
+//       panel.style.display = "none";
+//     } else {
+//       panel.style.display = "block";
+//     }
+//   });
+// }
+const tabcontent = document.querySelectorAll('.tabcontent');
+for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+ tabcontent[0].style.display= "block";
+
         function openCity(evt, cityName) {
-          var i, tabcontent, tablinks;
+          var i, tabcontent, tablinks, aboveMobile;
+        //   var aboveMobile = "block";
           tabcontent = document.getElementsByClassName("tabcontent");
           for (i = 0; i < tabcontent.length; i++) {
             tabcontent[i].style.display = "none";
@@ -283,9 +397,29 @@
           for (i = 0; i < tablinks.length; i++) {
             tablinks[i].className = tablinks[i].className.replace(" active", "");
           }
-          document.getElementById(cityName).style.display = "block";
+          document.getElementById(cityName).style = "aboveMobile";
+        //   document.getElementById(cityName).className.replace = (" block", "aboveMobile");
           evt.currentTarget.className += " active";
         }
+
+
+
+        // ------------------------------
+        const items = document.querySelectorAll(".accordion button");
+
+function toggleAccordion() {
+  const itemToggle = this.getAttribute('aria-expanded');
+  
+  for (i = 0; i < items.length; i++) {
+    items[i].setAttribute('aria-expanded', 'false');
+  }
+  
+  if (itemToggle == 'false') {
+    this.setAttribute('aria-expanded', 'true');
+  }
+}
+
+items.forEach(item => item.addEventListener('click', toggleAccordion));
         </script>
 </body>
 
