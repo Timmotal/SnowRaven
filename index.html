@@ -5,251 +5,317 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coalition Technologies</title>
-    <link rel="stylesheet" href="css/styles.css">
 
+    <link href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" rel="stylesheet" type="text/css" />
+    
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </head>
 
 <body>
-    <section id="heroSection">
-        <img 
-    src="
-    https://images.unsplash.com/photo-1523580756629-96e10267bfdd?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    " 
-    alt="coalition-technologies-logo" 
-    />
-                <header>
-                    <nav style="display: flex; justify-content: space-between;  position: relative;">
-            
-                        <a href="#">
-                            <img
-                            style="height: 50px; width: 50px; border-radius: 50%; "
-                         src="
-                        https://images.unsplash.com/photo-1675135391618-ba6905ded306?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                        " alt="">
+    <section class="space" id="heroSection">
+        <img src="https://cdn.pixabay.com/photo/2017/09/27/01/16/koryaksky-volcano-2790656_960_720.jpg"/>
+        <header>
+            <nav style="display: flex; justify-content: space-between;  position: relative; padding: 20px 0;">
+
+                <ul>
+                    <li>
+                        <a href="#" title="logo">
+                            <img style="height: 50px; width: 50px; border-radius: 50%; position: relative; " src="
+                    https://images.unsplash.com/photo-1675135391618-ba6905ded306?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                    " alt="">
                         </a>
-                    <ul>
-                        <li class="links">
-                            <a href="#historySection" title="history">01. HISTORY</a>
-                        </li>
-                        <li>                            
-                            <a href="#teamSection" title="team">02. TEAM</a>
-                        </li>
-                    </ul>
-                   
+                    </li>
+                    <li style="text-align: center; justify-content: center">
+                        <a>LOS ANGELES
+                            <span>Mountains</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="links">
+                        <a href="#historySection" title="history" style="color: white;">01. HISTORY</a>
+                    </li>
+                    <li>
+                        <a href="#teamSection" title="team" style="color: white;">02. TEAM</a>
+                    </li>
                 </ul>
             </nav>
-                </header>
-        
-            <main id="heroSection"  style="position: relative;">
-                <!-- <img 
+        </header>
+
+        <main id="heroSection" style="position: relative;">
+            <!-- <img 
                 src="
                 https://images.unsplash.com/photo-1660560672343-b1ed7f24cf8c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
                 "
                  alt="mountains-image"> -->
-                <h1>
-                    LOSANGELES
-                    <span>MOUNTAINS</span>
-                </h1>
-            </main>
+            <h1 style="font-size: 85px; text-align: center; word-spacing: 200px; padding: 100px;">
+                LOSANGELES
+                <span style="display: block; word-spacing: 200px; color: #3c4961; ">MOUNTAINS</span>
+            </h1>
+        </main>
     </section>
-<!-- ------------------------------------------------------------------ -->
-<nav style="display: flex; justify-content: space-between;  position: relative; padding: 10px 100px 0;">
-            
-    <ul>
-        <li>
-            <a href="#" >
-                <img
-                style="height: 50px; width: 50px; border-radius: 50%; position: relative; "
-             src="
+    <!-- ------------------------------------------------------------------ -->
+    <nav style="display: flex; justify-content: space-between;  position: relative; padding: 10px 100px 0;">
+
+        <ul>
+            <li>
+                <a href="#" title="logo">
+                    <img style="height: 50px; width: 50px; border-radius: 50%; position: relative; " src="
             https://images.unsplash.com/photo-1675135391618-ba6905ded306?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
             " alt="">
-            </a>
-        </li>
-        <li style="margin-top: -20px; margin-left:10px ;">
-            <a>LOS ANGELES
-                <span>Mountains</span>
-            </a>
-        </li>
-    </ul>
-<ul>
-    <li class="links">
-        <a href="#historySection" title="history">01. HISTORY</a>
-    </li>
-    <li>                            
-        <a href="#teamSection" title="team">02. TEAM</a>
-    </li>
-</ul>
+                </a>
+            </li>
+            <li style="text-align: center; justify-content: center">
+                <a>LOS ANGELES
+                    <span>Mountains</span>
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="links">
+                <a href="#historySection" title="history" style="color: #3c4961;">01. HISTORY</a>
+            </li>
+            <li>
+                <a href="#teamSection" title="team" style="color: #3c4961;">02. TEAM</a>
+            </li>
+        </ul>
 
-</ul>
-</nav>
+        </ul>
+    </nav>
     <!-- -------------------------------------------------------------------- -->
-    <section id="historySection">
-        <img 
-        src="
-        https://images.unsplash.com/photo-1702486817394-cf4982efde82?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-        "
-         alt="mountains2-image">
+<div class="textCarouselArea">
+    <!-- <img src="
+    https://images.unsplash.com/photo-1702486817394-cf4982efde82?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+    " alt="mountains2-image"> -->
+    <div id="historySection">
+       
 
- 
+
 
         <div style="display: flex; flex-direction: column; justify-content: space-between;">
-            <article style="position: relative; margin: 50px;">
-                <h1 style="font-size: 100px;">01.</h1>
-                <h3 style="margin-top: -0160px; margin-left: 100px;">HISTORY</h3>
-                    <p style="padding: 0 50px;"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Odio necessitatibus ullam cupiditate eligendi corrupti dolores aut.
-                        Quae illo blanditiis ullam similique assumenda ex cupiditate fuga
-                        iure eum tempore quisquam ducimus reiciendis minus aperiam quas
-                        rerum odio possimus, labore, placeat voluptate iste incidunt
-                        nostrum modi? Ratione deleniti numquam ullam illum odio iure sequi.
-                    </p>
-            </article>
-            <div style="position: relative;" class="fadedSlideShowContainer">
-    
-                <div class="slider">
-                    <div class="slide">01</div>
-                    <div class="slide">02</div>
-                    <div class="slide">03</div>
-                    <div class="slide">04</div>
-                </div>
-            </div>
-        </div>
-    </section>
+            <article style="position: relative; padding: 100px;">
+                <h1 style="font-size: 100px; color: #9fa7b5;">01.</h1>
 
+                <h3 style="margin-top: -60px; margin-left: 100px; color: #3c4961;">HISTORY</h3>
+
+                <p style="padding: 50px;"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Odio necessitatibus ullam cupiditate eligendi corrupti dolores aut.
+                    Quae illo blanditiis ullam similique assumenda ex cupiditate fuga
+                    iure eum tempore quisquam ducimus reiciendis minus aperiam quas
+                    rerum odio possimus, labore, placeat voluptate iste incidunt
+                    nostrum modi? Ratione deleniti numquam ullam illum odio iure sequi.
+                </p>
+            </article>
+        </div>
+    </div>
+<!-- ---------------slider------- -->
+<div class="wrapperContainer">
+    <div class="wrapper">
+        <div class="slick">
+            <div><img src="https://picsum.photos/400?1"></div>
+            <div><img src="https://picsum.photos/400?2"></div>
+            <div><img src="https://picsum.photos/400?3"></div>
+            <div><img src="https://picsum.photos/400?4"></div>
+            <div><img src="https://picsum.photos/400?5"></div>
+            <div><img src="https://picsum.photos/400?6"></div>
+            <div><img src="https://picsum.photos/400?7"></div>
+            <div><img src="https://picsum.photos/400?8"></div>
+            <div><img src="https://picsum.photos/400?9"></div>
+            <div><img src="https://picsum.photos/400?10"></div>
+            <div><img src="https://picsum.photos/400?11"></div>
+            <div><img src="https://picsum.photos/400?12"></div>
+        </div>
+
+
+    </div>
+    <div class="overlay"></div>
+</div>
+</div>
 
     <!-- ------------------------------------------------------------------------- -->
     <section>
-        <article style="position: relative; display: flex; justify-content: space-between;">
-            <h1 style="font-size: 100px;">02.</h1>
-            <h3 style="margin-top: 150px; margin-left: -20px;">Climb</h3>
-                <p style="padding: 120px 50px;"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Odio necessitatibus ullam cupiditate eligendi corrupti dolores aut.
-                    Quae illo blanditiis ullam similique assumenda ex cupiditate fuga
-                </p>
+        <article class="space" style="position: relative; display: flex; justify-content: space-between;">
+            <h1 style="font-size: 115px; color: #9fa7b5;">02.</h1>
+            <h3 style="margin-top: 52px; margin-left: -20px; color: #3c4961; font-size: 25px;">Climb</h3>
+            <p style="padding:50px; font-size: 14px;"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Odio necessitatibus ullam cupiditate eligendi corrupti dolores aut.
+                Quae illo blanditiis ullam similique assumenda ex cupiditate fuga
+            </p>
         </article>
-        <div class="navbarLikeHeaderWithActveLink">
+        <div class="navbarLikeHeaderWithActveLink" style="background-color: #404f6c;">
             <!-- <ul style="list-style-type: none; display: flex; gap: 10px;">
                 <li><a href="#" onclick="showContent('content1')">Mountain 1</a></li>
                 <li><a href="#" onclick="showContent('content2')">Mountain 1</a></li>
             </ul> -->
 
-            <ul class="tab"  style="list-style-type: none; display: flex; gap: 10px;">
-                <button class="tablinks accordion" onclick="openCity(event, 'Mountain1')">Mountain 1</button>
-                <button class="tablinks accordion" onclick="openCity(event, 'Mountain2')">Mountain 2</button>
-              </ul>
+            <ul class="tab space" style="list-style-type: none; display: flex; gap: 10px;">
+                <button class="tablinks active accordion custom-underline" onclick="openCity(event, 'Mountain1')">Mountain 1</button>
+                <button class="tablinks accordion custom-underline" onclick="openCity(event, 'Mountain2')">Mountain 2</button>
+            </ul>
         </div>
-        <section id="teamSection">
-        
-            <div>
-                <img 
-            src="https://images.unsplash.com/photo-1616282169510-05ba664ee212?q=80&w=1555&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-             alt="mountains-image">
-            
-             <div style="position: relative;">
+        <section id="teamSection" class="space">
 
-                <h3>Schedule</h3>
+            <div style="padding: 150px;">
+                <img src="https://images.unsplash.com/photo-1616282169510-05ba664ee212?q=80&w=1555&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="mountains-image">
+
+                <div style="position: relative; padding: 20px;" class="schedule">
+
+                    <h3 style="color: #3c4961; font-size: 50px;">Schedule</h3>
 
 
-<div id="Mountain1" class="tabcontent panel aboveMobile">
-    <div id="mountain1Body">
-        <div class="textInBody">
-            <div>
-                <ul 
-                class="make them have spave betwenn || and between the texts also">
-                    <li>
-                        <span>25 Nov 2016</span>
-                        <span>Westnulum vlverra</span>
-                    </li>
-                    <li>
-                        <span>28 Nov 2016</span>
-                        <span>Westnulum vlverra</span>
-                    </li>
-                </ul>
+                    <div id="Mountain1" class="tabcontent panel">
+                        <div id="mountain1Body">
+                            <div class="" style=" font-size: 12px; gap: 10px;">
+                                    <ul style="">
+                                        <li style="">
+                                            <span>25 Nov 2016</span>
+                                            <span>Vestibulum viverra</span>
+                                        </li>
+                                        <li>
+                                            <span>28 Nov 2016</span>
+                                            <span>Vestibulum viverra</span>
+                                        </li>
+                                    </ul>
 
-                <ul class="2nd list">
-                    <li>
-                        <span>18 Dec 2016</span>
-                        <span>Westnulum vlverra</span>
-                    </li>
-                </ul>
+                                    <ul class="2nd list">
+                                        <li>
+                                            <span>18 Dec 2016</span>
+                                            <span>Vestibulum viverra</span>
+                                        </li>
+                                    </ul>
 
-                <ul class="third">
-                    <li>
-                        <span>7 Jan 2017</span>
-                        <span>Westnulum vlverra</span>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
+                                    <ul class="third">
+                                        <li>
+                                            <span>7 Jan 2017</span>
+                                            <span>Vestibulum viverra</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
 
-<div id="Mountain2" class="tabcontent panel aboveMobile">
+                    <div id="Mountain2" class="tabcontent panel">
 
-        <div id="mountain2Body">
-            <div class="textInBody">
-                <div>
-                    <ul class="make them have spave betwenn || and between the texts also" style="display: flex; flex-direction: column;">
-                        <li>
-                            <span>17 Nov 2016</span>
-                            <span>Westnulum vlverra</span>
-                        </li>
-                    </ul>
+                        <div id="mountain2Body">
+                            <div class="textInBody">
+                                <div class="" style=" font-size: 12px; gap: 10px;">
+                                    <ul class="make them have spave betwenn || and between the texts also"
+                                        style="display: flex; flex-direction: column; ">
+                                        <li>
+                                            <span>17 Nov 2016</span>
+                                            <span>Vestibulum viverra</span>
+                                        </li>
+                                    </ul>
 
-                    <ul class="2nd list" style="display: flex; flex-direction: column;">
-                        
-                        <li>
-                            <span>13 Dec 2016</span>
-                            <span>Westnulum vlverra</span>
-                        </li>
-                        <li>
-                            <span>28 Dec 2016</span>
-                            <span>Westnulum vlverra</span>
-                        </li>
-                    </ul>
+                                    <ul class="2nd list" style="display: flex; flex-direction: column;">
 
-                    <ul class="third">
-                        <li>
-                            <span>2 Feb 2017</span>
-                            <span>Westnulum vlverra</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-  
-  </div>
-  <div class="container">
-    <h2>Frequently Asked Questions</h2>
+                                        <li>
+                                            <span>13 Dec 2016</span>
+                                            <span>Vestibulum viverra</span>
+                                        </li>
+                                        <li>
+                                            <span>28 Dec 2016</span>
+                                            <span>Vestibulum viverra</span>
+                                        </li>
+                                    </ul>
 
-    <div class="accordion">
+                                    <ul class="third">
+                                        <li>
+                                            <span>2 Feb 2017</span>
+                                            <span>Vestibulum viverra</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
 
-      <div class="accordion-item">
-        <button id="accordion-button-1" aria-expanded="false">
-            <span class="accordion-title">
-                Mountain 1
-            </span>
-            <span class="icon" aria-hidden="true"></span>
-        </button>
-        <div class="accordion-content">
-          <p>Mountain 1 Content</p>
-        </div>
-      </div>
+                    </div>
+                    <div class="container">
 
-      <div class="accordion-item">
-        <button id="accordion-button-2" aria-expanded="false">
-            <span class="accordion-title">
-                Mountain 2
-            </span>
-            <span class="icon" aria-hidden="true"></span>
-        </button>
+                        <div class="accordion ">
 
-        <div class="accordion-content">
-          <p>Mountain 2 Content.</p>
-        </div>
-      </div>
+                            <div class="accordion-item">
+                                <button id="accordion-button-1" aria-expanded="false">
+                                    <span class="accordion-title">
+                                        Mountain 1
+                                    </span>
+                                    <span class="icon" aria-hidden="true"></span>
+                                </button>
+                                <div class="accordion-content">
+                                    <div class="" style=" font-size: 12px; gap: 10px;">
+                                        <ul style="">
+                                            <li style="">
+                                                <span>25 Nov 2016</span>
+                                                <span>Vestibulum viverra</span>
+                                            </li>
+                                            <li>
+                                                <span>28 Nov 2016</span>
+                                                <span>Vestibulum viverra</span>
+                                            </li>
+                                        </ul>
+    
+                                        <ul class="2nd list">
+                                            <li>
+                                                <span>18 Dec 2016</span>
+                                                <span>Vestibulum viverra</span>
+                                            </li>
+                                        </ul>
+    
+                                        <ul class="third">
+                                            <li>
+                                                <span>7 Jan 2017</span>
+                                                <span>Vestibulum viverra</span>
+                                            </li>
+                                        </ul>
+                                </div>
+                                </div>
+                            </div>
 
-      <!-- <div class="accordion-item">
+                            <div class="accordion-item">
+                                <button id="accordion-button-2" aria-expanded="false">
+                                    <span class="accordion-title">
+                                        Mountain 2
+                                    </span>
+                                    <span class="icon" aria-hidden="true"></span>
+                                </button>
+
+                                <div class="accordion-content">
+                                    <div class="" style=" font-size: 12px; gap: 10px;">
+                                        <ul class="make them have spave betwenn || and between the texts also"
+                                            style="display: flex; flex-direction: column; ">
+                                            <li>
+                                                <span>17 Nov 2016</span>
+                                                <span>Vestibulum viverra</span>
+                                            </li>
+                                        </ul>
+    
+                                        <ul class="2nd list" style="display: flex; flex-direction: column;">
+    
+                                            <li>
+                                                <span>13 Dec 2016</span>
+                                                <span>Vestibulum viverra</span>
+                                            </li>
+                                            <li>
+                                                <span>28 Dec 2016</span>
+                                                <span>Vestibulum viverra</span>
+                                            </li>
+                                        </ul>
+    
+                                        <ul class="third">
+                                            <li>
+                                                <span>2 Feb 2017</span>
+                                                <span>Vestibulum viverra</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- <div class="accordion-item">
         <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Will we ever discover aliens?</span><span class="icon" aria-hidden="true"></span></button>
         <div class="accordion-content">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
@@ -269,12 +335,12 @@
       </div> -->
 
 
-    </div>
-</div>
+                        </div>
+                    </div>
 
-                
-                
-             </div>
+
+
+                </div>
             </div>
         </section>
     </section>
@@ -330,103 +396,113 @@
           </div> -->
 
 
-        </div>
+    </div>
     </div>
 
-<!-- ------------------------------------------------------------------ -->
+    <!-- ------------------------------------------------------------------ -->
 
     <footer style="display: flex; justify-content: space-between;  position: relative; padding: 10px 100px 0;">
-            
+
         <ul>
             <li>
-                <a href="#" >
-                    <img
-                    style="height: 50px; width: 50px; border-radius: 50%; position: relative; "
-                 src="
+                <a href="#">
+                    <img style="height: 50px; width: 50px; border-radius: 50%; position: relative; " src="
                 https://images.unsplash.com/photo-1675135391618-ba6905ded306?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
                 " alt="">
                 </a>
             </li>
-            <li style="margin-top: -20px; margin-left:10px ;">
+            <li style="">
                 <a>LOS ANGELES
                     <span>Mountains</span>
                 </a>
             </li>
         </ul>
-    <ul>
-        <li class="links">
-            <p>Copyright 2016. All Rights Reserved</p>
-        </li>
-    </ul>
-    
-    </ul>
+        <ul>
+            <li class="links">
+                <p>Copyright 2016. All Rights Reserved</p>
+            </li>
+        </ul>
+
+        </ul>
     </footer>
 
     
+        
+   
+
+
     <script>
 
-// Accordion Functionality
-// var acc = document.getElementsByClassName("accordion");
-// var i;
+        // Accordion Functionality
+        // var acc = document.getElementsByClassName("accordion");
+        // var i;
 
-// for (i = 0; i < acc.length; i++) {
-//   acc[i].addEventListener("click", function() {
-//     this.classList.toggle("active");
-//     var panel = this.nextElementSibling;
-//     if (panel.style.display === "block") {
-//       panel.style.display = "none";
-//     } else {
-//       panel.style.display = "block";
-//     }
-//   });
-// }
-// const tabcontent = document.querySelectorAll('.tabcontent');
-// for (i = 0; i < tabcontent.length; i++) {
-//             tabcontent[i].style.display = "none";
-//           }
-//  tabcontent[0].className = "active";
+        // for (i = 0; i < acc.length; i++) {
+        //   acc[i].addEventListener("click", function() {
+        //     this.classList.toggle("active");
+        //     var panel = this.nextElementSibling;
+        //     if (panel.style.display === "block") {
+        //       panel.style.display = "none";
+        //     } else {
+        //       panel.style.display = "block";
+        //     }
+        //   });
+        // }
+        // const tabcontent = document.querySelectorAll('.tabcontent');
+        // for (i = 0; i < tabcontent.length; i++) {
+        //             tabcontent[i].style.display = "none";
+        //           }
+        //  tabcontent[0].className = "active";
 
-const tabcontent = document.querySelectorAll('.tabcontent');
-for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-          }
- tabcontent[0].style.display= "block";
+        let tabcontent = document.querySelectorAll('.tabcontent');
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[1].style.display = "none";
+            // tabcontent[i].className += " desktopOnly";
+        };
+        //  tabcontent[0].style.display= "block";
+        // tabcontent[0].className += "desktopOnly";
+        // console.log("desktopOnly")
+        //  tabcontent[0].classList.add('desktopOnly');
+        // if ("desktopOnly" === )
+
 
         function openCity(evt, cityName) {
-          var i, tabcontent, tablinks, aboveMobile;
-        //   var aboveMobile = "block";
-          tabcontent = document.getElementsByClassName("tabcontent");
-          for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-          }
-          tablinks = document.getElementsByClassName("tablinks");
-          for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-          }
-          document.getElementById(cityName).style = "aboveMobile";
-        //   document.getElementById(cityName).className.replace = (" block", "aboveMobile");
-          evt.currentTarget.className += " active";
+            var i, tabcontent, tablinks, desktopOnly;
+            //   var desktopOnly = "block";
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style = "desktopOnly";
+            //   document.getElementById(cityName).className.replace = (" block", "aboveMobile");
+            evt.currentTarget.className += " active";
         }
-
+ 
 
 
         // ------------------------------
         const items = document.querySelectorAll(".accordion button");
 
-function toggleAccordion() {
-  const itemToggle = this.getAttribute('aria-expanded');
-  
-  for (i = 0; i < items.length; i++) {
-    items[i].setAttribute('aria-expanded', 'false');
-  }
-  
-  if (itemToggle == 'false') {
-    this.setAttribute('aria-expanded', 'true');
-  }
-}
+        function toggleAccordion() {
+            const itemToggle = this.getAttribute('aria-expanded');
 
-items.forEach(item => item.addEventListener('click', toggleAccordion));
-        </script>
+            for (i = 0; i < items.length; i++) {
+                items[i].setAttribute('aria-expanded', 'false');
+            }
+
+            if (itemToggle == 'false') {
+                this.setAttribute('aria-expanded', 'true');
+            }
+        }
+
+        items.forEach(item => item.addEventListener('click', toggleAccordion));
+    </script>
+
+    <script src="app.js"></script>
 </body>
 
 </html>
