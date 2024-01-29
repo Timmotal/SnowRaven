@@ -55,6 +55,9 @@ span {
         border-top: none;
       }
 }
+.climb h1 {
+    display: flex;
+}
 
 
 .desktopOnly, .tab button, .tabcontent{
@@ -63,6 +66,34 @@ span {
 /* Above Mobile Screens */
 @media (min-width: 768px) {
 
+    #heroSection h1{
+        font-size: 85px; 
+        text-align: center; 
+        padding: 100px;
+    }
+    .article {
+        padding: 100px;
+    }
+    .desktopNav {
+        padding: 10px 100px 0;
+    }
+    .climb {
+        display: flex; 
+        justify-content: space-between;
+    }
+   
+
+    .climb p {
+        padding:50px; 
+    }
+    .teamSectionDiv {
+        padding: 150px;
+    }
+    footer {
+        display: flex; 
+        justify-content: space-between;  
+        padding: 10px 100px 0;
+    }
     .desktopOnly{
         display: block;
     }
@@ -153,14 +184,65 @@ span {
 
 
 @media (max-width: 767px) {
+    .space {
+        padding: 0 20px 10px;
+    }
+    #heroSection h1{
+        font-size: 30px; 
+        text-align: center; 
+        padding: 199px 46px;
+        overflow: hidden;
+    }
+    nav ul li {
+        list-style-type: none;
+        padding: 10px 5px;
+        display: flex;
+        flex-direction: row;
+        gap: 200px;
+    }
+
+    nav ul li a{
+        font-size: 14px;
+    }
+    article {
+        padding: 10px;
+    }
+    .climb p {
+        padding: 0;
+    }
+    .accordion {
+        background-color: #ccc; 
+        /* padding: 10px; */
+        max-width: 300px;
+    }
+    .accordion-content div {
+        background-color: #fff;
+
+    }
     .desktopOnly{
         display: none;
     }
+    footer {
+        display: flex;
+        flex-direction: column;
+        
+        text-align: center;
+        padding: 15px 22px 10px;
+    }
+
+    footer ul{
+        justify-content: space-between;
+    }
+    footer p {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
     .accordion {
         .accordion-item {
-          border-bottom: 1px solid $lightgray;
+          border-bottom: 1px solid purple
           button[aria-expanded='true'] {
-            border-bottom: 1px solid $blue;
+            border-bottom: 1px solid yellow;
           }
         }
         button {
@@ -168,30 +250,30 @@ span {
           display: block;
           text-align: left;
           width: 100%;
-          padding: 1em 0;
-          color: $text;
-          font-size: 1.15rem;
+          padding: 0 16px;
+          color: #3c4961;;
+          font-size: 18.4px;
           font-weight: 400;
           border: none;
           background: none;
           outline: none;
           &:hover, &:focus {
             cursor: pointer;
-            color: $blue;
+            color: #3c4961;;
             &::after {
               cursor: pointer;
-              color: $blue;
-              border: 1px solid $blue;
+              color: red;
+              border: 1px solid yellow;
             }
           }
           .accordion-title {
-            padding: 1em 1.5em 1em 0;
+            padding: 20px 10px 
           }
           .icon {
             display: inline-block;
             position: absolute;
             top: 18px;
-            right: 0;
+            right: 17px;
             width: 22px;
             height: 22px;
             border: 1px solid;
@@ -204,7 +286,7 @@ span {
               left: 5px;
               width: 10px;
               height: 2px;
-              background: currentColor;
+              background: #3c4961;;
             }
             &::after {
               display: block;
@@ -214,12 +296,12 @@ span {
               left: 9px;
               width: 2px;
               height: 10px;
-              background: currentColor;
+              background: #3c4961;;
             }
           }
         }
         button[aria-expanded='true'] {
-          color: $blue;
+          color: #3c4961;;
           .icon {
             &::after {
               width: 0;
@@ -227,7 +309,7 @@ span {
           }
           + .accordion-content {
             opacity: 1;
-            max-height: 9em;
+            max-height: 144px;
             transition: all 200ms linear;
             will-change: opacity, max-height;
           }
@@ -239,9 +321,9 @@ span {
           transition: opacity 200ms linear, max-height 200ms linear;
           will-change: opacity, max-height;
           p {
-            font-size: 1rem;
+            font-size: 14px;
             font-weight: 300;
-            margin: 2em 0;
+            margin: 302px 0;
           }
         }
       }

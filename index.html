@@ -20,20 +20,11 @@
         <header>
             <nav style="display: flex; justify-content: space-between;  position: relative; padding: 20px 0;">
 
-                <ul>
-                    <li>
-                        <a href="#" title="logo">
-                            <img style="height: 50px; width: 50px; border-radius: 50%; position: relative; " src="
-                    https://images.unsplash.com/photo-1675135391618-ba6905ded306?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                    " alt="">
-                        </a>
-                    </li>
-                    <li style="text-align: center; justify-content: center">
-                        <a>LOS ANGELES
-                            <span>Mountains</span>
-                        </a>
-                    </li>
-                </ul>
+                <a href="#" title="logo">
+                    <img style="height: 50px; width: 50px; border-radius: 50%; padding: 20px 0;" src="
+                        https://images.unsplash.com/photo-1675135391618-ba6905ded306?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                        " alt="coalition-technologies-logo">
+                </a>
                 <ul>
                     <li class="links">
                         <a href="#historySection" title="history" style="color: white;">01. HISTORY</a>
@@ -46,19 +37,14 @@
         </header>
 
         <main id="heroSection" style="position: relative;">
-            <!-- <img 
-                src="
-                https://images.unsplash.com/photo-1660560672343-b1ed7f24cf8c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-                "
-                 alt="mountains-image"> -->
-            <h1 style="font-size: 85px; text-align: center; word-spacing: 200px; padding: 100px;">
+            <h1 style="">
                 LOSANGELES
-                <span style="display: block; word-spacing: 200px; color: #3c4961; ">MOUNTAINS</span>
+                <span style="display: block; letter-spacing: 8px; color: #3c4961; ">MOUNTAINS</span>
             </h1>
         </main>
     </section>
     <!-- ------------------------------------------------------------------ -->
-    <nav style="display: flex; justify-content: space-between;  position: relative; padding: 10px 100px 0;">
+    <nav class="desktopNav" style="display: flex; justify-content: space-between;  position: relative;">
 
         <ul>
             <li>
@@ -69,8 +55,8 @@
                 </a>
             </li>
             <li style="text-align: center; justify-content: center">
-                <a>LOS ANGELES
-                    <span>Mountains</span>
+                <a>LOSANGELES
+                    <span style="letter-spacing: 1.8px;">Mountains</span>
                 </a>
             </li>
         </ul>
@@ -85,18 +71,14 @@
 
         </ul>
     </nav>
-    <!-- -------------------------------------------------------------------- -->
 <div class="textCarouselArea">
-    <!-- <img src="
-    https://images.unsplash.com/photo-1702486817394-cf4982efde82?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    " alt="mountains2-image"> -->
     <div id="historySection">
        
 
 
 
         <div style="display: flex; flex-direction: column; justify-content: space-between;">
-            <article style="position: relative; padding: 100px;">
+            <article style="position: relative; ">
                 <h1 style="font-size: 100px; color: #9fa7b5;">01.</h1>
 
                 <h3 style="margin-top: -60px; margin-left: 100px; color: #3c4961;">HISTORY</h3>
@@ -111,7 +93,6 @@
             </article>
         </div>
     </div>
-<!-- ---------------slider------- -->
 <div class="wrapperContainer">
     <div class="wrapper">
         <div class="slick">
@@ -134,23 +115,18 @@
     <div class="overlay"></div>
 </div>
 </div>
-
-    <!-- ------------------------------------------------------------------------- -->
     <section>
-        <article class="space" style="position: relative; display: flex; justify-content: space-between;">
-            <h1 style="font-size: 115px; color: #9fa7b5;">02.</h1>
-            <h3 style="margin-top: 52px; margin-left: -20px; color: #3c4961; font-size: 25px;">Climb</h3>
-            <p style="padding:50px; font-size: 14px;"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <article class="space climb" style="position: relative; ">
+            <h1 style="font-size: 115px; color: #9fa7b5;">02.
+                <span style="margin-top: 52px; margin-left: -20px; color: #3c4961; font-size: 25px;">Climb</span></h1>
+            
+            <p style="font-size: 14px;"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Odio necessitatibus ullam cupiditate eligendi corrupti dolores aut.
                 Quae illo blanditiis ullam similique assumenda ex cupiditate fuga
             </p>
         </article>
         <div class="navbarLikeHeaderWithActveLink" style="background-color: #404f6c;">
-            <!-- <ul style="list-style-type: none; display: flex; gap: 10px;">
-                <li><a href="#" onclick="showContent('content1')">Mountain 1</a></li>
-                <li><a href="#" onclick="showContent('content2')">Mountain 1</a></li>
-            </ul> -->
-
+   
             <ul class="tab space" style="list-style-type: none; display: flex; gap: 10px;">
                 <button class="tablinks active accordion custom-underline" onclick="openCity(event, 'Mountain1')">Mountain 1</button>
                 <button class="tablinks accordion custom-underline" onclick="openCity(event, 'Mountain2')">Mountain 2</button>
@@ -158,13 +134,13 @@
         </div>
         <section id="teamSection" class="space">
 
-            <div style="padding: 150px;">
+            <div class="teamSectionDiv">
                 <img src="https://images.unsplash.com/photo-1616282169510-05ba664ee212?q=80&w=1555&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt="mountains-image">
 
                 <div style="position: relative; padding: 20px;" class="schedule">
 
-                    <h3 style="color: #3c4961; font-size: 50px;">Schedule</h3>
+                     <h3 style="color: #3c4961; font-size: 50px;">Schedule</h3>
 
 
                     <div id="Mountain1" class="tabcontent panel">
@@ -251,7 +227,7 @@
                                             <li style="">
                                                 <span>25 Nov 2016</span>
                                                 <span>Vestibulum viverra</span>
-                                            </li>
+                                            </li>  
                                             <li>
                                                 <span>28 Nov 2016</span>
                                                 <span>Vestibulum viverra</span>
@@ -285,7 +261,7 @@
 
                                 <div class="accordion-content">
                                     <div class="" style=" font-size: 12px; gap: 10px;">
-                                        <ul class="make them have spave betwenn || and between the texts also"
+                                        <ul class=""
                                             style="display: flex; flex-direction: column; ">
                                             <li>
                                                 <span>17 Nov 2016</span>
@@ -314,27 +290,6 @@
                                     </div>
                                 </div>
                             </div>
-
-                            <!-- <div class="accordion-item">
-        <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Will we ever discover aliens?</span><span class="icon" aria-hidden="true"></span></button>
-        <div class="accordion-content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">How much does the Earth weigh?</span><span class="icon" aria-hidden="true"></span></button>
-        <div class="accordion-content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">How do airplanes stay up?</span><span class="icon" aria-hidden="true"></span></button>
-        <div class="accordion-content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
-        </div>
-      </div> -->
-
-
                         </div>
                     </div>
 
@@ -345,63 +300,10 @@
         </section>
     </section>
 
-    <!-- ----------------------------------------- -->
-    <!-- <div class="container">
-        <h2>Frequently Asked Questions</h2>
-
-        <div class="accordion">
-
-          <div class="accordion-item">
-            <button id="accordion-button-1" aria-expanded="false">
-                <span class="accordion-title">
-                    Mountain 1
-                </span>
-                <span class="icon" aria-hidden="true"></span>
-            </button>
-            <div class="accordion-content">
-              <p>Mountain 1 Content</p>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <button id="accordion-button-2" aria-expanded="false">
-                <span class="accordion-title">
-                    Mountain 2
-                </span>
-                <span class="icon" aria-hidden="true"></span>
-            </button>
-
-            <div class="accordion-content">
-              <p>Mountain 2 Content.</p>
-            </div>
-          </div>
-
-           <div class="accordion-item">
-            <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Will we ever discover aliens?</span><span class="icon" aria-hidden="true"></span></button>
-            <div class="accordion-content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">How much does the Earth weigh?</span><span class="icon" aria-hidden="true"></span></button>
-            <div class="accordion-content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">How do airplanes stay up?</span><span class="icon" aria-hidden="true"></span></button>
-            <div class="accordion-content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
-            </div>
-          </div> -->
-
-
+  
     </div>
     </div>
-
-    <!-- ------------------------------------------------------------------ -->
-
-    <footer style="display: flex; justify-content: space-between;  position: relative; padding: 10px 100px 0;">
+    <footer style=" position: relative;">
 
         <ul>
             <li>
@@ -411,9 +313,9 @@
                 " alt="">
                 </a>
             </li>
-            <li style="">
-                <a>LOS ANGELES
-                    <span>Mountains</span>
+            <li style="text-align: center; justify-content: center">
+                <a>LOSANGELES
+                    <span style="letter-spacing: 1.8px;">Mountains</span>
                 </a>
             </li>
         </ul>
@@ -432,27 +334,6 @@
 
 
     <script>
-
-        // Accordion Functionality
-        // var acc = document.getElementsByClassName("accordion");
-        // var i;
-
-        // for (i = 0; i < acc.length; i++) {
-        //   acc[i].addEventListener("click", function() {
-        //     this.classList.toggle("active");
-        //     var panel = this.nextElementSibling;
-        //     if (panel.style.display === "block") {
-        //       panel.style.display = "none";
-        //     } else {
-        //       panel.style.display = "block";
-        //     }
-        //   });
-        // }
-        // const tabcontent = document.querySelectorAll('.tabcontent');
-        // for (i = 0; i < tabcontent.length; i++) {
-        //             tabcontent[i].style.display = "none";
-        //           }
-        //  tabcontent[0].className = "active";
 
         let tabcontent = document.querySelectorAll('.tabcontent');
         for (i = 0; i < tabcontent.length; i++) {
